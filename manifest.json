@@ -1,0 +1,12 @@
+{
+"name":"Auto surf",
+"description":"Intellegent Agent surf",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://www.adtc-app.com/*","https://www.adtc-app.com/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
